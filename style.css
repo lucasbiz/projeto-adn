@@ -59,6 +59,7 @@ a:hover {
 
 body{
     background-image: url(imagens/fundo.jpg);
+    background-color: var(--cor02);
 }
 
 main{
