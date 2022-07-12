@@ -65,7 +65,6 @@ body{
 }
 
 main{
-    height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-width: 300px;
     max-width: 1000px;
