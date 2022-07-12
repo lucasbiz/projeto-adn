@@ -84,7 +84,7 @@ abbr {
     text-decoration: none;
 }
 
-img {
+main > img {
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -117,11 +117,13 @@ footer > p a {
     text-decoration: none;
     color: white;
 
+
 }
 footer > p{
     padding-top: 10px;
+    font-size: 12px;
 } 
-footer > img {
-    display: inline-block;
+.tocha {
+    display: inline;
     padding: 0px;
 }
