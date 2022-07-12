@@ -21,7 +21,7 @@
 }
 
 header{
-    background-color: var(--cor02);
+    background-image: linear-gradient(to top, var(--cor01), var(--cor05));
     font-family: var(--fonte-minecraft);
     color: white;
     text-align: center;
@@ -38,10 +38,10 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor02);
+    background-color: var(--cor01);
     font-family: var(--fonte-minecraft);
     color: white;
-    padding: 0px 0px 20px 20px;
+    padding-bottom: 20px;
 }
 
 nav a {
@@ -60,6 +60,7 @@ a:hover {
 body{
     background-image: url(imagens/fundo.jpg);
     background-color: var(--cor02);
+    background-attachment: fixed;
 }
 
 main{
@@ -71,6 +72,9 @@ main{
     background-color: white;
     margin: auto;
     padding: 20px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 main > h1 {
     padding-bottom: 10px;
@@ -102,15 +106,13 @@ article > h2 {
     padding-bottom: 10px;
 }
 
-article > p {
-    padding-bottom: 20px;
-}
-
 footer {
     color: white;
     background-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 5px;
 }
 
 footer > p a {
@@ -119,11 +121,4 @@ footer > p a {
 
 
 }
-footer > p{
-    padding-top: 10px;
-    font-size: 12px;
-} 
-.tocha {
-    display: inline;
-    padding: 0px;
-}
+
