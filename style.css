@@ -67,7 +67,7 @@ main{
     text-align: justify;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    min-width: 350px;
+    min-width: 300px;
     max-width: 1000px;
     background-color: white;
     margin: auto;
