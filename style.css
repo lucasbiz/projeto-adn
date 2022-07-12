@@ -61,7 +61,7 @@ body{
     background-image: url(imagens/fundo.jpg);
     background-color: var(--cor02);
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
 }
 
 main{
