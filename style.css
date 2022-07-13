@@ -113,6 +113,11 @@ section > h2 {
     padding-bottom: 10px;
 }
 
+ul {
+    padding: 5px;
+    list-style-position: inside;
+}
+
 footer {
     color: white;
     background-color: black;
@@ -126,8 +131,5 @@ footer > p a {
     text-decoration: none;
     color: white;
     transition-duration: 0.5s;
-
-
-
 }
 
