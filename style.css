@@ -98,8 +98,9 @@ abbr {
 
 section img {
     display: block;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
+    width: 100%;
 }
 
 section{
